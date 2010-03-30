@@ -1,0 +1,9 @@
+A really basic rails template, for the current (as of this writing) rails, 2.3.x
+
+Uses: authlogic, cancan, shoulda, factory_girl, jrails, fast_context
+
+Basic controllers for UserSessions, Users, and PasswordResets are built in. Some shoulda macros and a login_as method for testing with authlogic are also included.
+
+Usage:
+
+rails mynewapp -m path/to/basic_app/basic_app.rb
